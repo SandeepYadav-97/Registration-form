@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey-form</title>
+</head>
+
+<body>
+    <h1 id="title">Registration form</h1>
+    <p id="description">Join Us and Give Your Career A Push</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your valid email" required>
+        <label for="number" id="number-label">Number</label>
+        <input type="number" id="number" placeholder="Enter the number in given range" min="10" max="12">
+        <label for="course">Select The Course You Want To Enroll In </label>
+        <select name="course" id="dropdown">
+            <option value="B.Tech">Bachelor Of Technology</option>
+            <option value="B.A.">Bachelor Of Arts</option>
+            <option value="M.B.A.">M.B.A.</option>
+        </select>
+        <p>Which Campus You Would like to choose</p>
+        <input type="radio" name="city" value="allahabad" checked>
+        <label for="allahabad">Prayagraj</label><br>
+        <input type="radio" name="city" value="noida">
+        <label for="noida">Noida</label><br>
+        <input type="radio" name="city" value="guwahati">
+        <label for="guwahati">Guwahati</label><br><br>
+        <p>In Case of B.Tech, Choose the Branch Preferred</p>
+        <input type="checkbox" name="branch" value="mechanical">
+        <label for="mechanical">Mechanical Engineering</label><br>
+        <input type="checkbox" name="branch" value="electrical">
+        <label for="electrical">Electrical Engineering</label><br>
+        <input type="checkbox" name="branch" value="civil">
+        <label for="civil">Civil Engineering</label><br><br>
+        <p>What makes you to choose us?</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>

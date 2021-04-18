@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+body{
+    background:#4267B2;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Zen Dots', cursive;
+}
+#title{
+    margin-top: 3rem;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+#description{
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#survey-form{
+    background:#00008B;
+    padding: 3rem 2rem;
+    margin: 1rem auto;
+    max-width: 700px;
+    margin: auto;
+    height:100%;
+    border-radius: 20px;
+}
+#survey-form label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#survey-form p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+#survey-form textarea{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+
+}
+#survey-form input[type="text"],
+#survey-form input[type="email"],
+#survey-form input[type="number"],
+#survey-form select{
+    display:block;
+    margin-bottom: 1rem;
+    width:100%;
+    padding:0.6rem;
+
+}
+#survey-form >:last-child input[type="radio"],
+#survey-form >:last-child input[type="checkbox"]{
+    margin-bottom: 8px;
+}
+#submit{
+    display: block;
+    width:100%;
+    padding: 1rem;
+    color:#fff;
+    background:darkblue;
+    font-family:'Zen Dots', cursive;
+    font-size: 1.2rem;
+}
